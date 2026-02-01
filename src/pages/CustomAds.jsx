@@ -24,10 +24,9 @@ function ensureAnchorsOpenInNewTab(htmlString) {
 export default function TopAdsSection() {
   const [topAds, setTopAds] = useState([]);
 
-  // Normalize site from current browser URL (no env override)
   const rawHost = typeof window !== "undefined" ? window.location.hostname : "";
   const normalizedHost = rawHost.replace(/^www\./i, "").toLowerCase();
-  const site = (normalizedHost || "B7satta.vip").toLowerCase();
+  const site = (normalizedHost || "b7satta.co").toLowerCase();
 
   useEffect(() => {
     async function fetchAds() {
