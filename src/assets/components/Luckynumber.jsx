@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Navigation, Pagination, Scrollbar, B71y } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
