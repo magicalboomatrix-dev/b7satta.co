@@ -94,7 +94,7 @@ const Luckynumber = () => {
 
   return (
     <Swiper
-      modules={[Navigation, Pagination, Scrollbar, B71y]}
+      modules={[Navigation, Pagination, Scrollbar, A11y]}
       slidesPerView={3}
       spaceBetween={50}
       loop
